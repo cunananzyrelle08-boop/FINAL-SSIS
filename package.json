@@ -6,14 +6,11 @@
   "engines": {
     "node": ">=24"
   },
-  "scripts": {
-    "dev": "vite",
-    "server": "node server/index.mjs",
-    "server:watch": "node --watch server/index.mjs",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "node --test"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
   "dependencies": {
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
